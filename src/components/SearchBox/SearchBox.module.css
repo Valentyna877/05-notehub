@@ -1,0 +1,26 @@
+.input {
+    flex: 1;
+    max-width: 240px;
+    padding: 6px 12px;
+    font-size: 16px;
+    /* border: 1px solid #ced4da; */
+    border-radius: 4px;
+    border: 2px solid #ff9000;
+    color: #2e2f42;
+    font-weight: bold;
+    background-color: #E6E6FA;
+  }
+  
+  input:hover::placeholder {
+      color: #ff9000;
+    }
+  
+  input:focus {
+      border: 2px solid #ff9000;
+      outline: none;
+      font-weight: normal;
+    }
+  
+  input:focus::placeholder {
+      color: transparent;
+    }
